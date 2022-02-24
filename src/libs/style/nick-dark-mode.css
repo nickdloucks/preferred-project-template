@@ -1,0 +1,34 @@
+:root{
+    --nick-dk-gray: #363636; /* -custom- */
+    --nick-lime: #00ff00; /* lime */
+}
+html {
+    color: #ffffff;
+    background-color: var(--nick-dk-gray, #363636);
+}
+
+a{
+    color: var(--nick-lime, lime)
+}
+
+a:hover{
+    color: var(--nick-dk-gray, #ffffff);
+}
+
+.neutral-button{
+    color: #000000;
+    background-color: var(--nick-blue, blue);
+    padding: 1rem;
+    transition: padding border 0.5s ease-in-out 0.25s;
+    border-radius: 0.25rem;
+}
+.neutral-button:hover{
+    border-style: solid #000000 2px;
+    color: #ffffff;
+    padding: 1.5rem;
+    font-style: italic;
+}
+.neutral-button:active{
+    color: var(--nick-red, red);
+    text-decoration: underline;
+}
