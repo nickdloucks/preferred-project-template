@@ -1,8 +1,8 @@
 {
   "name": "my-proj-template",
   "version": "1.0.0",
-  "description": "Cash Till machine with Interface",
-  "main": "index.js",
+  "description": "My preferred configs & packages for new projects",
+  "main": "index.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nickdloucks/preferred-project-template.git"
